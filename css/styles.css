@@ -130,11 +130,11 @@ h1, h2, h3, h4, h5, h6{
  
 }
 
- .download-button-area .download-button {
+ /* .download-button-area .download-button {
     margin: 3%    ;
     display:flex;  
-} 
-}
+}  */
+
 .download-button{
     margin: 5% 3% 3% 0;
     clear:left;
