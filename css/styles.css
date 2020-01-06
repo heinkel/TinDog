@@ -98,10 +98,11 @@ h1, h2, h3, h4, h5, h6{
     .title-paragraph{
         text-align: center;
     }
-
+.button-box{
+    justify-content: center;
+}
 
 .title-image {
-
     position: static;
     transform: rotate(0);
     text-align: center;
@@ -116,13 +117,8 @@ h1, h2, h3, h4, h5, h6{
 /* Buttons */
 
 
-/* @media (min-width: 1000px){ */
-.download-button-area{
-     /* display:flex;  */
- 
-} 
-.button-text{
-}
+
+
 
 .logo{
     margin-top: 3px;
@@ -134,10 +130,18 @@ h1, h2, h3, h4, h5, h6{
     margin: 3%    ;
     display:flex;  
 }  */
+.button-box{
+    display:flex;
+    /* padding-left: 25% ; */
+    flex-wrap: nowrap;
+   
+}
+
 
 .download-button{
     margin: 5% 3% 3% 0;
     clear:left;
+    display:inline-flex;
  } 
 
 
